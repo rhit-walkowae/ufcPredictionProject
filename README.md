@@ -5,16 +5,16 @@ NOTE: in PredictionAlgorithms file the code section to create the dataFrame requ
   
   This means if your ufcPredictionProject repo folder gets cloned to your desktop your UFCdata.csv file should also be at your desktop.
   
-├── Desktop
-│   ├── Discord
-│   ├── Chrome
-│   ├── Teams
-│   ├── GitHub Desktop
-│   ├── **ufcPredictionProject**
-│   │   ├── **PredictionAlgorithms.ipynb**
-│   │   ├── README.md
-│   ├── RandomProgram
-│   ├── RandomFile.pdf
-│   ├── **UFCdata.csv**
+├── Desktop<br>
+│   ├── Discord<br>
+│   ├── Chrome<br>
+│   ├── Teams<br>
+│   ├── GitHub Desktop<br>
+│   ├── **ufcPredictionProject**<br>
+│   │   ├── **PredictionAlgorithms.ipynb**<br>
+│   │   ├── README.md<br>
+│   ├── RandomProgram<br>
+│   ├── RandomFile.pdf<br>
+│   ├── **UFCdata.csv**<br>
 
   

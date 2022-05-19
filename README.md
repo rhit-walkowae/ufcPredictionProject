@@ -17,4 +17,18 @@ NOTE: in PredictionAlgorithms file the code section to create the dataFrame requ
 │   ├── RandomFile.pdf<br>
 │   ├── **UFCdata.csv**<br>
 
-  
+to import the data set use: 
+
+import os
+path = os.getcwd()
+p = path
+p= p+'\UFCdata.csv'
+df = pd.read_csv(p)
+
+
+---For diff data set:
+import os
+path = os.getcwd()
+
+p= p+'\UfcDiffData.csv'
+df = pd.read_csv(p)

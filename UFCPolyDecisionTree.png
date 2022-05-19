@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="R_avg_opp_HEAD_landed^3 <= -0.586\ngini = 0.486\nsamples = 100.0%\nvalue = [0.366, 0.018, 0.616]", fillcolor="#cdb1f5"] ;
+1 [label="B_Height_cms^2 R_age <= 1.118\ngini = 0.369\nsamples = 17.8%\nvalue = [0.23, 0.01, 0.76]", fillcolor="#a877ed"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="B_avg_SIG_STR_att R_avg_opp_HEAD_landed^2 <= 0.047\ngini = 0.34\nsamples = 16.3%\nvalue = [0.205, 0.009, 0.786]", fillcolor="#a36eec"] ;
+1 -> 2 ;
+3 [label="gini = 0.26\nsamples = 11.1%\nvalue = [0.151, 0.002, 0.847]", fillcolor="#985dea"] ;
+2 -> 3 ;
+4 [label="gini = 0.466\nsamples = 5.2%\nvalue = [0.319, 0.025, 0.657]", fillcolor="#c09df2"] ;
+2 -> 4 ;
+5 [label="B_age B_avg_SIG_STR_att^2 R_avg_opp_HEAD_landed <= -0.063\ngini = 0.516\nsamples = 1.5%\nvalue = [0.509, 0.018, 0.474]", fillcolor="#fdf7f2"] ;
+1 -> 5 ;
+6 [label="gini = 0.363\nsamples = 0.5%\nvalue = [0.238, 0.0, 0.762]", fillcolor="#a877ed"] ;
+5 -> 6 ;
+7 [label="gini = 0.461\nsamples = 0.9%\nvalue = [0.667, 0.028, 0.306]", fillcolor="#f1bd98"] ;
+5 -> 7 ;
+8 [label="R_age R_avg_opp_HEAD_landed^2 <= 0.07\ngini = 0.501\nsamples = 82.2%\nvalue = [0.396, 0.019, 0.585]", fillcolor="#d7c1f7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="B_age R_avg_opp_HEAD_landed^2 <= 0.006\ngini = 0.486\nsamples = 56.3%\nvalue = [0.353, 0.023, 0.623]", fillcolor="#caacf4"] ;
+8 -> 9 ;
+10 [label="gini = 0.508\nsamples = 34.9%\nvalue = [0.402, 0.024, 0.574]", fillcolor="#dbc6f8"] ;
+9 -> 10 ;
+11 [label="gini = 0.43\nsamples = 21.4%\nvalue = [0.274, 0.023, 0.703]", fillcolor="#b48af0"] ;
+9 -> 11 ;
+12 [label="B_avg_SIG_STR_att R_avg_opp_HEAD_landed^2 <= -0.129\ngini = 0.511\nsamples = 25.9%\nvalue = [0.488, 0.011, 0.501]", fillcolor="#fcfafe"] ;
+8 -> 12 ;
+13 [label="gini = 0.488\nsamples = 9.6%\nvalue = [0.405, 0.005, 0.589]", fillcolor="#d8c2f7"] ;
+12 -> 13 ;
+14 [label="gini = 0.51\nsamples = 16.2%\nvalue = [0.536, 0.014, 0.449]", fillcolor="#fbebe0"] ;
+12 -> 14 ;
+}
